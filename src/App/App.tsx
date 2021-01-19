@@ -2,6 +2,7 @@ import React from 'react';
 import useStyle from "./App.style.js"
 import Header from "../containers/Header/Header";
 import Main from "../containers/Main/Main";
+import Footer from "../containers/Footer/Footer";
 
 const App = () => {
 	const classes = useStyle()
@@ -9,6 +10,7 @@ const App = () => {
 		<div className={classes.App}>
 			<Header/>
 			<Main/>
+			<Footer/>
 		</div>
 	)
 }

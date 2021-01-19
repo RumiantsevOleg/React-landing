@@ -1,7 +1,7 @@
 import React from "react";
 import useStyle from "./OurServices.style.js";
-import CartService from "../Cart-service/CartService";
-import ButtonApp from "../ButtonApp/ButtonApp";
+import CartService from "../../components/Cart-service/CartService";
+import ButtonApp from "../../components/ButtonApp/ButtonApp";
 
 const OurServices = () => {
   const classes = useStyle();
@@ -33,36 +33,38 @@ const OurServices = () => {
         />
 
         <CartService
-          img={"/img/search.png"}
-          header={"Search doctor"}
+          img={"/img/consultation.png"}
+          header={"Consultation"}
           text={
-            "Choose your doctor from thousands of specialist, general, and trusted hospitals"
+            "Free consultation with our trusted doctors and get the best recommendations"
           }
         />
 
         <CartService
-          img={"/img/search.png"}
-          header={"Search doctor"}
+          img={"/img/detailsInfo.png"}
+          header={"Details info"}
           text={
-            "Choose your doctor from thousands of specialist, general, and trusted hospitals"
+            "Free consultation with our trusted doctors and get the best recommendations"
           }
         />
 
         <CartService
-          img={"/img/search.png"}
-          header={"Search doctor"}
+          img={"/img/emergency.png"}
+          header={"Emergency care"}
           text={
-            "Choose your doctor from thousands of specialist, general, and trusted hospitals"
+            "You can get 24/7 urgent care for yourself or your children and your lovely family"
           }
         />
 
         <CartService
-          img={"/img/search.png"}
-          header={"Search doctor"}
+          img={"/img/tracking.png"}
+          header={"Tracking"}
           text={
-            "Choose your doctor from thousands of specialist, general, and trusted hospitals"
+            "Track and save your medical history and health data "
           }
         />
+
+
       </div>
 
       <div className={classes.buttonWrap}>

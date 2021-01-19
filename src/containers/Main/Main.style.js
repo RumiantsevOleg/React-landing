@@ -13,10 +13,18 @@ const useStyle = createUseStyles({
 		marginTop: "84px",
 	},
 
+	sectionWrap: {
+		marginTop: "180px"
+	},
+
+
 	"@media (max-width: 1250px)": {
 		content: {
 			width: "90%",
 
+		},
+		sectionWrap: {
+			marginTop: "50px"
 		}
 	}
 
